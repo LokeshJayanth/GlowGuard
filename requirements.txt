@@ -1,0 +1,8 @@
+streamlit==1.37.1
+Pillow==10.4.0
+requests==2.32.3
+onnxruntime==1.18.1
+opencv-python==4.10.0.84
+numpy==1.26.4
+folium==0.16.0
+streamlit-folium==0.20.0
