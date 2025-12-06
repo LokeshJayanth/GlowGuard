@@ -3,6 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+<<<<<<< HEAD
 # Environment variables
 .env
 .env.*
@@ -36,6 +37,8 @@ uploads/
 config.local.*
 settings.local.*
 
+=======
+>>>>>>> origin/main
 # C extensions
 *.so
 
