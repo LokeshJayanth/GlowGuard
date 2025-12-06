@@ -3,6 +3,39 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# API keys and secrets
+secrets.toml
+*.key
+*.pem
+*.crt
+
+# Local development
+.venv/
+venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Session data
+*.db
+*.sqlite3
+
+# Uploads directory
+uploads/
+
+# Local configuration
+config.local.*
+settings.local.*
+
 # C extensions
 *.so
 

@@ -26,10 +26,9 @@ render_brand_header(
     emoji="🧭",
 )
 
-# Keys
-# IMPORTANT: Per user request, applying Google API key directly in code (not recommended for production)
-GOOGLE_KEY = "AIzaSyBKBhoqZacP4x1i5lZ49Lq5yi0joxN5nVQ"
-OW_KEY = get_openweather_api_key()
+# API Keys (loaded from environment variables)
+GOOGLE_KEY = os.getenv("GOOGLE_API_KEY", "")
+OW_KEY = os.getenv("OPENWEATHER_API_KEY", "")
 
 with st.sidebar:
     st.subheader("API Keys Status")

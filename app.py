@@ -6,6 +6,9 @@ from typing import Dict, List, Optional, Tuple
 import requests
 import streamlit as st
 from PIL import Image
+from dotenv import load_dotenv
+load_dotenv()  # Load environment variables from .env file
+
 from lib import inject_css, render_brand_header, render_footer, init_db
 import os
 import sqlite3
@@ -318,6 +321,9 @@ def adaptive_questions_for(skin: str) -> Tuple[List[str], List[str], List[str]]:
 # -----------------------------
 # Sidebar: User Profile & Controls
 # -----------------------------
+from dotenv import load_dotenv
+load_dotenv()  # Load environment variables from .env file
+
 from lib import inject_css, render_brand_header, render_footer
 inject_css()
 st.title("🌍 GlowGuard+ Dashboard")
